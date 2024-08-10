@@ -6,23 +6,25 @@
     box-sizing: border-box;
 }
 
-#section-initial{
+.sect-initial{
     background-color: #1a1d1a;
-    height: 90vh;
+    height: 100vh;
     color: #ffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
     text-align: center;
 }
 
-#section-initial h1{
-    font-size: 4em;
+.sect-initial h1{
+    font-size: 4.2em;
 }
 
-
+.sect-emperor{
+    height: 100vh;
+    background-color: #A41623;
+}
 /* Paleta de Cores
 Section (primeira section de apresentação) - #1A1D1A
 Section (segunda section que ficará no fundo) -  #A41623 / #BE1E1E
