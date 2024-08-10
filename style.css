@@ -25,6 +25,11 @@
     height: 100vh;
     background-color: #A41623;
 }
+
+#img-laurel{
+    width: 180px;
+    padding-bottom: 20px;
+}
 /* Paleta de Cores
 Section (primeira section de apresentação) - #1A1D1A
 Section (segunda section que ficará no fundo) -  #A41623 / #BE1E1E
