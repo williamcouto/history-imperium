@@ -22,20 +22,24 @@
 }
 
 .sect-emperor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    column-gap: 30px;
     height: 100vh;
     background-color: #A41623;
 }
 
 .card-emperors{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     background-color: #F7F7F7;
     position: relative;
     top: 10%;
     left: 6%;
-    width: 350px;
+    width: 340px;
     height: 400px;
     padding: 28px;
     text-align: center;
