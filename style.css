@@ -24,10 +24,9 @@
 .sect-emperor{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
-    row-gap: 12%;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10%;
     justify-items: center;
-    height: 100vh;
     background-color: #A41623;
 }
 
@@ -42,6 +41,7 @@
     text-align: center;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.473) 0px 3px 3px 0px;
+    border-radius: 10px;
 }
 
 .card-emperors h2{
@@ -94,10 +94,11 @@
     position: absolute;
     cursor:pointer;
     background-color: #A41623;
+    color: #ffff;
     border-radius: 20px;
     padding: 7px;
-    top: 0;
-    right: 25%;
+    top: 18px;
+    right: 27%;
 }
 
 /* Paleta de Cores
