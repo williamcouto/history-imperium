@@ -32,12 +32,13 @@
     align-items: center;
     justify-items: center;
     background-color: #F7F7F7;
-    border: 1px solid #000;
     position: relative;
-    top: 15%;
+    top: 10%;
     left: 6%;
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
 }
 
 #img-laurel{
@@ -50,6 +51,33 @@
     border: 2px solid #333333;
     border-radius: 50%;
 }
+
+.modal{
+    display: none;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+    /* garante que ele fique acima do resto do conteudo */
+    background-color: #24242493;
+}
+
+.modal-emperor-history{
+    background-color: #ffff;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+    border: 1px solid #0000006c;
+
+}
+
 /* Paleta de Cores
 Section (primeira section de apresentação) - #1A1D1A
 Section (segunda section que ficará no fundo) -  #A41623 / #BE1E1E
