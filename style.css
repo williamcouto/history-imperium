@@ -79,6 +79,13 @@
 
 }
 
+.closeBttn{
+    position: absolute;
+    top: 5%;
+    right: 200px;
+    cursor:pointer;
+}
+
 /* Paleta de Cores
 Section (primeira section de apresentação) - #1A1D1A
 Section (segunda section que ficará no fundo) -  #A41623 / #BE1E1E
