@@ -35,10 +35,14 @@
     position: relative;
     top: 10%;
     left: 6%;
-    width: 300px;
+    width: 350px;
     height: 400px;
-    padding: 20px;
+    padding: 28px;
     text-align: center;
+}
+
+.card-emperors h2{
+    line-height: 2em;
 }
 
 #img-laurel{
@@ -48,42 +52,49 @@
 
 .img-emperor{
     width: 250px;
-    border: 2px solid #333333;
-    border-radius: 50%;
 }
 
 .modal{
     display: none;
     padding: 10px;
     position: fixed;
-    top: 0px;
+    top: 15px;
     left: 0px;
     width: 100%;
     height: 100%;
-    z-index: 1; 
-    /* garante que ele fique acima do resto do conteudo */
-    background-color: #24242493;
+    z-index: 1; /* garante que ele fique acima do resto do conteudo */
+    background-color: #242424d0;
 }
 
 .modal-emperor-history{
     background-color: #ffff;
-    width: 500px;
+    width: 650px;
     height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
     margin: auto;
-    border: 1px solid #0000006c;
     text-align: justify;
 
 }
 
+.modalBtn{
+    background-color: transparent;
+    border: 1px solid #00000049;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+
 .closeBttn{
     position: absolute;
-    top: 5%;
-    right: 200px;
     cursor:pointer;
+    background-color: #A41623;
+    border-radius: 20px;
+    padding: 7px;
+    top: 0;
+    right: 25%;
 }
 
 /* Paleta de Cores
