@@ -23,26 +23,25 @@
 
 .sect-emperor{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 400px 400px;
-    column-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 12%;
+    justify-items: center;
     height: 100vh;
     background-color: #A41623;
 }
 
 .card-emperors{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #F7F7F7;
-    position: relative;
-    top: 10%;
-    left: 6%;
-    width: 340px;
+    width: 350px;
     height: 400px;
     padding: 28px;
     text-align: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 3px 3px 0px;
 }
 
 .card-emperors h2{
