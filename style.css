@@ -89,15 +89,20 @@
 }
 
 .modal-emperor-history{
-    background-color: #ffff;
+    background-color: #fff;
     width: 650px;
-    height: 500px;
+    height: 520px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
     margin: auto;
-    text-align: justify;
+    text-align:left;
+    line-height: 1.2em;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-size: 1em;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 .modalBtn{
@@ -110,10 +115,10 @@
 
 .closeBttn{
     position: absolute;
-    cursor:pointer;
+    cursor: pointer;
     background-color: #A41623;
     color: #ffff;
-    border-radius: 9px;
+    border-radius: 6px;
     padding: 4px;
     top: 18px;
     right: 27%;
