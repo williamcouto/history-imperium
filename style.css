@@ -90,7 +90,7 @@
 
 .modal-emperor-history{
     background-color: #fff;
-    width: 650px;
+    width: 670px;
     height: 520px;
     display: flex;
     flex-direction: column;
@@ -101,8 +101,13 @@
     line-height: 1.2em;
     overflow: scroll;
     overflow-x: hidden;
+    text-overflow: ellipsis;
     font-size: 1em;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.modal-emperor-history p{
+    padding: 11px;
 }
 
 .modalBtn{
