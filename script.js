@@ -12,8 +12,9 @@ modalsBttn.forEach(function(button){
         })
     }
 
-    //fechar modal pelo botão
-    modal.onclick = function(){
-    modal.style.display = 'none'
-    }
+    //Fecha o modal apenas pelo o botão.
+    let closeBtn = modal.querySelector('.closeBttn')
+    closeBtn.addEventListener('click', function(){
+        modal.style.display = 'none'
+    })
 })
