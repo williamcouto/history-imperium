@@ -27,6 +27,7 @@
 .sect-initial h1{
     font-family: 'Augustus', Arial, sans-serif;
     font-size: 4.2em;
+    letter-spacing: 5px;
 }
 
 .sect-initial h2{
@@ -41,6 +42,7 @@
     row-gap: 10%;
     justify-items: center;
     background-color: #A41623;
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.219) 0px 18px 36px -18px inset;
 }
 
 .card-emperors{
@@ -63,8 +65,8 @@
 }
 
 #img-laurel{
-    width: 170px;
-    padding-bottom: 20px;
+    width: 210px;
+    padding-bottom: 15px;
 }
 
 .img-emperor{
@@ -109,8 +111,8 @@
     cursor:pointer;
     background-color: #A41623;
     color: #ffff;
-    border-radius: 20px;
-    padding: 7px;
+    border-radius: 9px;
+    padding: 4px;
     top: 18px;
     right: 27%;
 }
