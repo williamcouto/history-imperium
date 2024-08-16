@@ -45,6 +45,17 @@
         align-items: center;
         justify-items: center;
         width: 95vw;
-        height: 90vh;
+        height: 92vh;
+    }
+
+    .closeBttn{
+        position: absolute;
+        cursor: pointer;
+        background-color: #A41623;
+        color: #ffff;
+        border-radius: 50%;
+        padding: 6px;
+        top: 20px;
+        right: 5%;
     }
 }
