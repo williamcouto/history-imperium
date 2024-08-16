@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
 @font-face{
     font-family: 'Augustus';
     src: url(fonts/Constantine.otf) format('truetype');
@@ -40,7 +39,7 @@
 .sect-emperor{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     row-gap: 7%;
     justify-items: center;
     background-color: #A41623;
@@ -51,14 +50,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: #F7F7F7;
-    width: 350px;
+    width: 340px;
     height: 400px;
     padding: 28px;
     text-align: center;
-    margin-top: 20px;
-    border: 3px solid #CBA135;;
-    box-shadow: rgba(0, 0, 0, 0.473) 0px 3px 3px 0px;
+    margin-top: 10px;
     border-radius: 10px;
     font-family: 'Augustus', Arial, Helvetica, sans-serif;
 }
