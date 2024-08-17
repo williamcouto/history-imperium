@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .sect-initial{
     background-color: #1a1d1a;
     height: 100vh;
