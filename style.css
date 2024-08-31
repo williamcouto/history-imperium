@@ -98,12 +98,12 @@ html{
 
 .modal-emperor-history{
     background-color: #fff;
-    width: 850px;
+    width: 870px;
     height: 560px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 31px;
+    padding: 30px;
     margin: auto;
     text-align:left;
     line-height: 1.2em;
@@ -146,10 +146,10 @@ html{
     cursor: pointer;
     background-color: #A41623;
     color: #ffff;
-    border-radius: 6px;
-    padding: 5px;
-    top: 18px;
-    right: 21%;
+    border-radius: 23px;
+    padding: 8px;
+    top: 22px;
+    right: 20%;
 }
 
 /* Paleta de Cores
