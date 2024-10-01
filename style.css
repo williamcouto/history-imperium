@@ -50,6 +50,11 @@ html{
     box-shadow: rgba(0, 0, 0, 0.11) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.219) 0px 18px 36px -18px inset;
 }
 
+header{
+    display: block;
+    text-align: center;
+}
+
 .card-emperors{
     display: flex;
     align-items: center;
