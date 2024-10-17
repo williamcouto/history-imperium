@@ -125,7 +125,6 @@ header{
 
 .modal-emperor-history h3{
     margin-bottom: 15px;
-    text-decoration: underline;
     font-family: 'Lora', Arial, Helvetica, sans-serif;
 }
 
@@ -151,10 +150,10 @@ header{
     cursor: pointer;
     background-color: #A41623;
     color: #ffff;
-    border-radius: 23px;
-    padding: 8px;
+    border-radius: 8px;
+    padding: 6px;
     top: 22px;
-    right: 20%;
+    right: 18%;
 }
 
 /* Paleta de Cores
