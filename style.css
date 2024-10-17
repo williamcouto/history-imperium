@@ -76,7 +76,7 @@ header{
 }
 
 .card-emperors:hover{
-    border: 3px solid  #CBA135 ;
+    border: 2px solid #CBA135 ;
 }
 
 #img-laurel{
@@ -136,7 +136,7 @@ header{
     width: 200px;
     height: 40px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .modalBtn:hover{
