@@ -103,12 +103,12 @@ header{
 
 .modal-emperor-history{
     background-color: #fff;
-    width: 870px;
-    height: 560px;
+    width: 70%;
+    height: 570px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 15px;
     margin: auto;
     text-align:left;
     line-height: 1.2em;
